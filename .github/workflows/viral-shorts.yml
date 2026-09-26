@@ -1,0 +1,101 @@
+name: viral-shorts
+
+on:
+  schedule:
+    - cron: "50 22 * * *"        # 매일 오전 7:50 (KST)
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "소재 (비우면 트렌드 자동 4개). 예: 식후 10분 걷기가 혈당에 좋은 이유"
+        required: false
+        default: ""
+      category:
+        description: "카테고리 (소재 입력 시)"
+        type: choice
+        options: [auto, diet, workout, world, home, health]
+        default: auto
+      site_only:
+        description: "글 생성 없이 사이트만 다시 배포"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["site_builder.py", "archive/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: viral-shorts
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+
+      - name: Install
+        if: github.event_name != 'push' && inputs.site_only != true
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-cjk
+          pip install -q -r requirements.txt
+
+      - name: Generate
+        id: gen
+        if: github.event_name != 'push' && inputs.site_only != true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          TOPIC: ${{ inputs.topic }}
+          CATEGORY: ${{ inputs.category }}
+        run: |
+          if [ -n "$TOPIC" ]; then
+            if [ -n "$CATEGORY" ] && [ "$CATEGORY" != "auto" ]; then
+              python main.py --topic "$TOPIC" --category "$CATEGORY"
+            else
+              python main.py --topic "$TOPIC"
+            fi
+          else
+            python main.py
+          fi
+          echo "out=$(ls -td output/*/ | head -1)" >> "$GITHUB_OUTPUT"
+
+      - name: Build site
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: |
+          pip install -q pyyaml
+          if [ -n "${{ steps.gen.outputs.out }}" ]; then
+            python site_builder.py --new "${{ steps.gen.outputs.out }}"
+          else
+            python site_builder.py
+          fi
+
+      - name: Save archive (글·썸네일·중복DB)
+        if: steps.gen.outputs.out != ''
+        run: |
+          git config user.name "viral-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive history.db 2>/dev/null || git add archive
+          git commit -m "daily: $(date -u +%F)" || true
+          git pull --rebase -q || true
+          git push || true
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+      - id: deploy
+        uses: actions/deploy-pages@v4

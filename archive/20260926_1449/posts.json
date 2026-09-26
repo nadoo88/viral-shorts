@@ -1,0 +1,479 @@
+[
+  {
+    "category": "health",
+    "title": "소화제로 넘기면 안 되는 신호 5개",
+    "hook": "소화제로 버티는 사람",
+    "x_post": ">>소화제 먹고 넘기는 사람 필독<<\n췌장암이 진짜 무서운 이유\n\n췌장은 위 뒤쪽 제일 깊숙한 데 숨어 있어서\n초기엔 증상이 거의 없음\n국가암등록통계 기준 5년 생존율 17%\n주요 암 중에 제일 낮음\n\n근데 몸이 보내는 신호는 있대\n1. 명치 더부룩한 게 몇 주째 안 없어짐\n2. 등 가운데까지 뻐근함\n3. 이유 없이 살이 빠짐\n4. 50 넘어서 갑자기 당뇨 진단\n5. 눈 흰자·소변 색이 누래짐\n\n\"피곤해서 그렇겠지\" 하고 파스 붙이고 끝내는 게 제일 위험함\n2주 넘게 가면 소화제 말고 내과부터 가봐\n\n부모님한테도 보내드려",
+    "x_thread": [
+      "명치 막히면 소화제, 등 아프면 파스\n이거 한국인 국룰인데 이게 제일 위험할 수 있음",
+      "췌장은 위 뒤쪽 깊숙이 있어서 초기에 거의 안 아픔\n국가암등록통계 기준 5년 생존율 17%로 주요 암 중 최저",
+      "이런 게 겹치면 바로 병원\n몇 주 가는 명치 더부룩함 / 등 통증 / 이유 없는 체중 감소 / 50세 이후 갑자기 생긴 당뇨 / 황달",
+      "가족력 있거나 담배 피우면 특히 챙겨야 함\n저장해두고 부모님 카톡으로 보내드려"
+    ],
+    "scenes": [
+      {
+        "text": "소화제 먹고\n넘기는 사람?",
+        "highlight": "소화제",
+        "visual": "stomach ache woman"
+      },
+      {
+        "text": "췌장은 제일 깊숙이\n숨어 있어서",
+        "highlight": "깊숙이",
+        "visual": "doctor anatomy model"
+      },
+      {
+        "text": "5년 생존율 17%\n주요 암 중 최저",
+        "highlight": "17%",
+        "visual": "hospital corridor"
+      },
+      {
+        "text": "몇 주 가는\n명치 더부룩함",
+        "highlight": "명치",
+        "visual": "man holding stomach"
+      },
+      {
+        "text": "등 통증 · 체중 감소\n갑자기 생긴 당뇨",
+        "highlight": "갑자기",
+        "visual": "back pain office"
+      },
+      {
+        "text": "2주 넘으면\n내과부터 가봐",
+        "highlight": "내과",
+        "visual": "doctor consultation clinic"
+      },
+      {
+        "text": "부모님한테도\n보내드려",
+        "highlight": "부모님",
+        "visual": "family phone message"
+      }
+    ],
+    "media_queries": [
+      "stomach ache",
+      "doctor consultation"
+    ],
+    "shooting_guide": "명치 잡는 손 → 소화제 까는 컷 → 파스 붙이는 등 컷에 X 표시 → 병원 접수대. 실제 환자 사진·장기 사진은 쓰지 말 것.",
+    "keywords": [
+      "췌장암",
+      "소화불량",
+      "5년 생존율"
+    ],
+    "hashtags": [
+      "#건강",
+      "#췌장암"
+    ],
+    "sources": [
+      {
+        "title": "국립암센터 중앙암등록본부 — 2023년 국가암등록통계",
+        "url": "https://www.ncc.re.kr/webzine/202602/sub_04_view.jsp?tab=tab1"
+      }
+    ],
+    "why_viral": "누구나 하는 습관(소화제·파스) 저격 + 부모님 공유 유도 → 카톡·인용 확산",
+    "credits": [],
+    "thumbnail": "01_health.jpg",
+    "video": "01_health.mp4",
+    "poster": "01_health_poster.jpg"
+  },
+  {
+    "category": "diet",
+    "title": "식단 안 해도 이것만 줄여",
+    "hook": "식단 없이 이것만",
+    "x_post": ">>식단 안 해도 이것만 줄이면 됨<<\n살 안 빠지는 사람 장바구니 공통점 10개\n\n1. 시리얼\n2. 아이스크림\n3. 김밥\n4. 떡볶이\n5. 액상과당 음료\n6. 빵·케이크\n7. 라면\n8. 짜장면·짬뽕\n9. 말린 과일\n10. 술\n\n끊으라는 거 아님\n일주일에 먹는 횟수만 반으로 줄여봐\n\n공통점이 보임?\n정제 탄수화물 + 당 + 나트륨 조합임\n배는 금방 꺼지는데 칼로리는 꽉 차 있음\n\n장보기 전에 저장",
+    "x_thread": [
+      "다이어트 식단 짤 자신 없는 사람\n'뭘 먹을까' 말고 '뭘 줄일까'부터 해봐",
+      "시리얼·음료·말린 과일 → 당이 농축돼 있어서 양 대비 칼로리 폭탄",
+      "라면·짜장면·떡볶이·김밥 → 정제 탄수화물 + 나트륨이라 먹고 나서 더 당김\n술은 칼로리도 칼로리인데 안주를 부름",
+      "완전히 끊으면 3일 만에 터짐\n횟수만 절반으로 줄이는 게 오래 감\n장보기 전에 저장"
+    ],
+    "scenes": [
+      {
+        "text": "식단 안 해도\n이것만 줄여",
+        "highlight": "이것만",
+        "visual": "supermarket shopping cart"
+      },
+      {
+        "text": "시리얼 · 아이스크림\n말린 과일",
+        "highlight": "말린 과일",
+        "visual": "cereal bowl"
+      },
+      {
+        "text": "라면 · 짜장면\n떡볶이 · 김밥",
+        "highlight": "라면",
+        "visual": "instant noodles"
+      },
+      {
+        "text": "액상과당 음료\n빵 · 케이크 · 술",
+        "highlight": "액상과당",
+        "visual": "soda drinks cans"
+      },
+      {
+        "text": "끊지 말고\n횟수만 반으로",
+        "highlight": "반으로",
+        "visual": "healthy grocery bag"
+      },
+      {
+        "text": "장보기 전에\n저장해둬",
+        "highlight": "저장",
+        "visual": "grocery list phone"
+      }
+    ],
+    "media_queries": [
+      "grocery cart",
+      "junk food"
+    ],
+    "shooting_guide": "편의점·마트 장바구니에 10개를 담았다가 절반씩 빼는 탑뷰 타임랩스.",
+    "keywords": [
+      "피해야 할 음식",
+      "다이어트 장바구니",
+      "정제 탄수화물"
+    ],
+    "hashtags": [
+      "#다이어트",
+      "#식단"
+    ],
+    "sources": [],
+    "why_viral": "번호 리스트(저장 욕구) + '끊지 말고 줄여'라는 현실 타협 + 한국인 소울푸드 저격으로 댓글 반박 유도",
+    "credits": [],
+    "thumbnail": "02_diet.jpg",
+    "video": "02_diet.mp4",
+    "poster": "02_diet_poster.jpg"
+  },
+  {
+    "category": "workout",
+    "title": "엉덩이 기억상실증 실제로 있음",
+    "hook": "엉덩이가 기억을 잃음",
+    "x_post": ">>엉덩이 기억상실증<<\n이거 장난인 줄 알았는데 실제로 쓰는 말이었음 ㅋㅋ\n\n하루 종일 앉아 있으면\n엉덩이 근육이 골반 잡아주는 법을 까먹는 상태\n영어로도 dead butt syndrome이라고 부름\n\n문제는 엉덩이만 아픈 게 아니라\n허리·골반·무릎까지 대신 고생함\n\n직장인·수험생이면 이것만 해\n1. 50분 앉았으면 일어나기\n2. 누워서 엉덩이 들기 15회\n3. 앉은 채로 엉덩이 꽉 10초 조이기\n\n앉아서 이 글 보는 중이면 지금 3번 해봐",
+    "x_thread": [
+      "'엉덩이 기억상실증' 들으면 다 웃는데\n물리치료 쪽에서 실제로 쓰는 표현임 (공식 진단명은 아님)",
+      "오래 앉아 있으면 엉덩이 근육은 늘어나고 고관절 앞쪽은 뻣뻣해져서\n엉덩이가 해야 할 일을 허리·무릎이 떠안게 됨",
+      "증상: 엉덩이 저림·뻐근함, 허리·골반 통증, 심하면 다리까지 당김\n다리 저림이 계속되면 병원 가서 확인",
+      "해결은 단순함\n50분마다 일어나기 / 브릿지 15회 / 앉아서 엉덩이 조이기\n지금 앉아 있으면 바로 해봐"
+    ],
+    "scenes": [
+      {
+        "text": "엉덩이가\n기억을 잃음",
+        "highlight": "기억을 잃음",
+        "visual": "office worker sitting long hours"
+      },
+      {
+        "text": "장난 아니고\n실제 쓰는 말임",
+        "highlight": "실제",
+        "visual": "physiotherapist clinic"
+      },
+      {
+        "text": "허리 · 골반 · 무릎이\n대신 고생함",
+        "highlight": "대신 고생",
+        "visual": "lower back pain desk"
+      },
+      {
+        "text": "① 50분 앉으면\n일어나기",
+        "highlight": "50분",
+        "visual": "standing up from desk"
+      },
+      {
+        "text": "② 누워서\n엉덩이 들기 15회",
+        "highlight": "15회",
+        "visual": "glute bridge exercise"
+      },
+      {
+        "text": "③ 앉은 채로\n엉덩이 꽉 10초",
+        "highlight": "10초",
+        "visual": "woman sitting chair office"
+      },
+      {
+        "text": "지금 앉아 있으면\n바로 해봐",
+        "highlight": "바로",
+        "visual": "stretching at office"
+      }
+    ],
+    "media_queries": [
+      "glute bridge",
+      "office sitting"
+    ],
+    "shooting_guide": "의자에 푹 꺼져 앉은 컷 → '삐빅 기억 삭제' 효과음 → 매트 위 브릿지 3회 실연.",
+    "keywords": [
+      "엉덩이 기억상실증",
+      "dead butt syndrome",
+      "브릿지"
+    ],
+    "hashtags": [
+      "#살빼는운동",
+      "#엉덩이기억상실증"
+    ],
+    "sources": [
+      {
+        "title": "Healthline — Dead Butt Syndrome",
+        "url": "https://www.healthline.com/health/dead-butt-syndrome"
+      }
+    ],
+    "why_viral": "웃긴 이름 → '실화였음' 반전 + 읽는 사람이 지금 앉아 있다는 상황 저격",
+    "credits": [],
+    "thumbnail": "03_workout.jpg",
+    "video": "03_workout.mp4",
+    "poster": "03_workout_poster.jpg"
+  },
+  {
+    "category": "workout",
+    "title": "거북목은 엎드려서 풀어야 함",
+    "hook": "거북목 앉아서 풀면",
+    "x_post": ">>거북목 스트레칭 앉아서만 하면 반쪽짜리<<\n하루 10분 엎드려서 이것만 해봐\n\n1. 엎드려서 이마 밑에 수건 깔기\n2. 턱 살짝 당긴 채로 머리만 1cm 들고 5초\n3. 팔 Y자로 뻗고 엄지 위로 들기 10회\n4. 팔 T자로 똑같이 10회\n\n목 뒤랑 날개뼈 사이가 뻐근하면 제대로 하는 거\n허리가 아프면 너무 높이 든 거임\n\n폰 보는 시간만큼 이거 해야 됨 ㅋㅋ\n저림이나 통증 심하면 병원 먼저",
+    "x_thread": [
+      "거북목은 앞쪽이 줄어든 게 아니라\n목 뒤·등 위쪽 근육이 약해진 게 커서 앉아서 늘리기만 하면 반쪽임",
+      "엎드리면 중력 반대로 목 뒤·날개뼈 근육을 직접 쓰게 됨",
+      "순서: 턱 당기고 머리 1cm 들기 5초 → Y자 팔 들기 10회 → T자 팔 들기 10회\n높이 드는 게 아니라 천천히가 핵심",
+      "하루 10분, 폰 보다가 생각날 때 해\n팔 저림·두통 동반되면 병원 먼저"
+    ],
+    "scenes": [
+      {
+        "text": "거북목\n앉아서만 풀면",
+        "highlight": "앉아서만",
+        "visual": "woman looking at phone neck"
+      },
+      {
+        "text": "반쪽짜리\n스트레칭임",
+        "highlight": "반쪽짜리",
+        "visual": "neck pain office"
+      },
+      {
+        "text": "엎드려서\n턱 당기고 1cm",
+        "highlight": "1cm",
+        "visual": "woman lying on yoga mat"
+      },
+      {
+        "text": "팔 Y자로\n엄지 위로 10회",
+        "highlight": "Y자",
+        "visual": "prone y raise exercise"
+      },
+      {
+        "text": "팔 T자로\n똑같이 10회",
+        "highlight": "T자",
+        "visual": "back exercise mat"
+      },
+      {
+        "text": "폰 본 만큼\n엎드려",
+        "highlight": "엎드려",
+        "visual": "home workout mat morning"
+      }
+    ],
+    "media_queries": [
+      "yoga mat exercise",
+      "neck pain phone"
+    ],
+    "shooting_guide": "측면 고정 카메라로 매트 위 Y·T 동작. 자막에 동작 이름 크게, 느린 템포.",
+    "keywords": [
+      "거북목",
+      "엎드려 운동",
+      "Y T 레이즈"
+    ],
+    "hashtags": [
+      "#거북목",
+      "#홈트"
+    ],
+    "sources": [],
+    "why_viral": "'앉아서 하면 반쪽' 반박형 후킹 + 따라 하기 쉬운 4단계 + 폰 보는 사람 저격",
+    "credits": [],
+    "thumbnail": "04_workout.jpg",
+    "video": "04_workout.mp4",
+    "poster": "04_workout_poster.jpg"
+  },
+  {
+    "category": "world",
+    "title": "전 세계 한 회사만 만드는 에스컬레이터",
+    "hook": "이거 91대밖에 없음",
+    "x_post": ">>이거 만들 수 있는 회사가 전 세계에 딱 하나<<\n나선형 에스컬레이터 본 적 있어?\n\n별거 아닌 것 같은데\n일본 미쓰비시전기 말고는 아무도 못 만듦\n\n일반 에스컬레이터는 중심점 하나로 설계하는데\n이건 곡선 따라 계단 모양이 계속 바뀌어서\n중심점을 여러 개 잡아야 한대\n\n1982년부터 개발했고\n일본 정부 홍보자료 기준 전 세계 91대\n라스베가스 쇼핑몰에도 있음\n\n공식 장점은 공간 활용이라는데\n솔직히 그냥 멋임 ㅋㅋㅋ\n\n실제로 타본 사람?",
+    "x_thread": [
+      "나선형 에스컬레이터\n세계에서 만드는 회사가 일본 미쓰비시전기 하나뿐임",
+      "직선형은 중심점 하나로 계산하는데\n나선형은 곡선 구간마다 계단 각도가 달라져서 중심점을 여러 개 써야 함",
+      "1982년 개발 시작, 일본 정부 홍보자료 기준 전 세계 91대\n라스베가스 포럼숍스가 유명함",
+      "장점: 공간 활용 + 압도적인 멋\n단점: 비싸고 만들기 어려움\n실제로 타본 사람 인용으로 어디였는지 알려줘"
+    ],
+    "scenes": [
+      {
+        "text": "전 세계에\n91대밖에 없음",
+        "highlight": "91대",
+        "visual": "spiral escalator shopping mall"
+      },
+      {
+        "text": "만드는 회사가\n딱 하나",
+        "highlight": "딱 하나",
+        "visual": "escalator mall atrium"
+      },
+      {
+        "text": "일본\n미쓰비시전기",
+        "highlight": "미쓰비시전기",
+        "visual": "japan factory engineering"
+      },
+      {
+        "text": "중심점을\n여러 개 잡아야 함",
+        "highlight": "여러 개",
+        "visual": "curved staircase architecture"
+      },
+      {
+        "text": "공식 장점은\n공간 활용인데",
+        "highlight": "공간 활용",
+        "visual": "modern mall interior"
+      },
+      {
+        "text": "솔직히\n그냥 멋임 ㅋㅋ",
+        "highlight": "멋",
+        "visual": "luxury shopping mall night"
+      }
+    ],
+    "media_queries": [
+      "spiral escalator",
+      "shopping mall atrium"
+    ],
+    "shooting_guide": "스톡에 나선형이 없으면 일반 에스컬레이터 + 곡선 계단 컷으로 대체하고 '실제 모습은 링크'로 유도. 타인 영상 재업로드 금지.",
+    "keywords": [
+      "나선형 에스컬레이터",
+      "미쓰비시전기",
+      "91대"
+    ],
+    "hashtags": [
+      "#해외이슈",
+      "#일본"
+    ],
+    "sources": [
+      {
+        "title": "Mitsubishi Electric — Spiral (Curved) Escalators",
+        "url": "https://mitsubishielevator.com/products/escalators/spiral"
+      },
+      {
+        "title": "Kids Web Japan (일본 정부) — Spiral-moving Escalator",
+        "url": "https://web-japan.org/kidsweb/hitech/escalator/index.html"
+      }
+    ],
+    "why_viral": "희소성 숫자(91대·1개 회사) + 반전 유머(장점은 멋) + '타본 사람' 경험 공유 유도",
+    "credits": [],
+    "thumbnail": "05_world.jpg",
+    "video": "05_world.mp4",
+    "poster": "05_world_poster.jpg"
+  },
+  {
+    "category": "home",
+    "title": "시린이 치약 브랜드 말고 성분 봐",
+    "hook": "시린이 치약 고르는 법",
+    "x_post": ">>시린이 치약 브랜드 보고 사는 사람<<\n뒷면 성분표에 이 두 개 있는지만 보면 됨\n\n1. 질산칼륨\n→ 시린 자극이 신경까지 가는 걸 둔하게 해줌\n\n2. 불화주석(플루오르화주석)\n→ 이가 시린 통로 자체를 막아줌\n\n효과 보려면 최소 2주는 꾸준히 써야 함\n양치하고 물로 여러 번 헹구면 성분 다 씻겨나감\n\n찬 거 먹을 때 한쪽 이만 계속 시리면\n치약 말고 치과 가봐 충치일 수도 있음",
+    "x_thread": [
+      "시린이 치약 비싼 거 산다고 다 같은 게 아님\n성분표 두 줄만 보면 됨",
+      "질산칼륨 = 자극 신호를 둔하게\n불화주석 = 시린 통로를 막음\n둘 중 하나는 들어 있어야 시린이용",
+      "쓰는 법: 최소 2주 꾸준히 / 양치 후 헹굼은 한두 번만",
+      "한쪽 이만 콕 시리거나 씹을 때 아프면 충치·금 간 이일 수 있으니 치과부터\n다음 장볼 때 성분표 확인해봐"
+    ],
+    "scenes": [
+      {
+        "text": "시린이 치약\n브랜드 보고 사?",
+        "highlight": "브랜드",
+        "visual": "toothpaste store shelf"
+      },
+      {
+        "text": "뒷면 성분표\n두 줄만 봐",
+        "highlight": "두 줄",
+        "visual": "reading product label"
+      },
+      {
+        "text": "① 질산칼륨",
+        "highlight": "질산칼륨",
+        "visual": "toothpaste closeup"
+      },
+      {
+        "text": "② 불화주석",
+        "highlight": "불화주석",
+        "visual": "brushing teeth bathroom"
+      },
+      {
+        "text": "최소 2주\n헹굼은 한두 번",
+        "highlight": "2주",
+        "visual": "rinsing mouth sink"
+      },
+      {
+        "text": "한쪽만 시리면\n치과 가봐",
+        "highlight": "치과",
+        "visual": "dentist office"
+      }
+    ],
+    "media_queries": [
+      "toothpaste",
+      "brushing teeth"
+    ],
+    "shooting_guide": "집에 있는 치약 뒷면 성분표를 손가락으로 짚는 매크로 컷. 특정 브랜드 로고는 흐리게.",
+    "keywords": [
+      "시린이 치약",
+      "질산칼륨",
+      "불화주석"
+    ],
+    "hashtags": [
+      "#살림꿀팁",
+      "#치약"
+    ],
+    "sources": [],
+    "why_viral": "'티어·브랜드' 논쟁 대신 누구나 확인 가능한 성분 기준 제시 → 저장·공유형",
+    "credits": [],
+    "thumbnail": "06_home.jpg",
+    "video": "06_home.mp4",
+    "poster": "06_home_poster.jpg"
+  },
+  {
+    "category": "home",
+    "title": "새우 손 안 더럽히고 까는 법",
+    "hook": "새우 이렇게 까는 거였음",
+    "x_post": ">>여태 새우 손으로 쥐어뜯어 먹었으면 필독<<\n\n1. 머리 비틀어서 떼기\n2. 배 쪽 다리를 한 번에 쭉 뜯기\n3. 몸통 껍질 첫 두 마디만 벗기기\n4. 꼬리 꾹 잡고 몸통 당기면 살이 쏙\n\n등 쪽 검은 줄은\n두 번째 마디에 이쑤시개 넣고 들어올리면 끝\n\n손 거의 안 묻고 살도 안 뜯겨서 모양 그대로임\n다음 회식 때 조용히 해봐 ㅋㅋ",
+    "x_thread": [
+      "새우 먹을 때마다 손 기름 범벅이었던 사람\n순서만 알면 깔끔하게 됨",
+      "머리 떼기 → 배 다리 한 번에 뜯기 → 첫 두 마디 껍질만 벗기기",
+      "꼬리 잡고 몸통 당기면 살이 통째로 빠짐\n등 쪽 검은 줄은 두 번째 마디에 이쑤시개 넣어서 쏙",
+      "회식·가족 모임에서 조용히 하면 은근 멋있음 ㅋㅋ\n저장해둬"
+    ],
+    "scenes": [
+      {
+        "text": "새우 아직도\n손으로 뜯어먹어?",
+        "highlight": "손으로",
+        "visual": "grilled shrimp plate"
+      },
+      {
+        "text": "① 머리\n비틀어서 떼기",
+        "highlight": "머리",
+        "visual": "peeling shrimp hands"
+      },
+      {
+        "text": "② 배 쪽 다리\n한 번에 쭉",
+        "highlight": "한 번에",
+        "visual": "shrimp closeup kitchen"
+      },
+      {
+        "text": "③ 첫 두 마디만\n껍질 벗기기",
+        "highlight": "두 마디",
+        "visual": "shrimp shell"
+      },
+      {
+        "text": "④ 꼬리 잡고 당기면\n살이 쏙",
+        "highlight": "쏙",
+        "visual": "shrimp dinner table"
+      },
+      {
+        "text": "다음 회식 때\n조용히 해봐",
+        "highlight": "회식",
+        "visual": "korean restaurant dinner friends"
+      }
+    ],
+    "media_queries": [
+      "peeling shrimp",
+      "shrimp dish"
+    ],
+    "shooting_guide": "직접 새우 1마리를 위에서 4단계로 까는 핸드 컷. 각 단계 1.5초, 마지막 통째로 빠지는 순간 슬로모션.",
+    "keywords": [
+      "새우 까는 법",
+      "새우 손질",
+      "회식 꿀팁"
+    ],
+    "hashtags": [
+      "#살림꿀팁",
+      "#새우"
+    ],
+    "sources": [],
+    "why_viral": "'여태 잘못 먹었네' 공감 + 짧은 4단계 + 회식 상황 연결로 공유",
+    "credits": [],
+    "thumbnail": "07_home.jpg",
+    "video": "07_home.mp4",
+    "poster": "07_home_poster.jpg"
+  }
+]

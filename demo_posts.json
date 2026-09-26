@@ -1,0 +1,107 @@
+[
+  {
+    "category": "diet",
+    "title": "밥 먼저 먹는 사람 살 안 빠지는 이유",
+    "hook": "먹는 순서만 바꿨는데",
+    "x_post": "똑같은 밥상인데\n먹는 순서만 바꾸면 식후 혈당이 확 달라짐\n\n1. 채소 먼저\n2. 고기·계란·생선\n3. 밥은 맨 마지막\n\n밥부터 먹는 습관이 제일 손해임\n오늘 저녁부터 해봐",
+    "x_thread": [
+      "다이어트 식단 바꾸기 귀찮은 사람\n반찬 그대로 두고 '순서'만 바꿔봐",
+      "미국 코넬대 연구팀 실험에서\n같은 음식을 채소·단백질 먼저, 탄수화물 나중에 먹었더니\n식후 혈당 상승폭이 눈에 띄게 낮았음",
+      "순서는 이거 하나만 외우면 됨\n채소 → 단백질 → 밥\n밥은 반찬 절반쯤 먹고 나서 시작",
+      "식단 짜기 전에 순서부터.\n까먹기 전에 저장해둬"
+    ],
+    "scenes": [
+      {"text": "밥부터 먹는 사람\n이 영상 꼭 봐", "highlight": "밥부터", "visual": "korean rice bowl meal"},
+      {"text": "같은 밥상인데\n순서만 바꿨더니", "highlight": "순서만", "visual": "healthy meal table top view"},
+      {"text": "식후 혈당이\n눈에 띄게 낮아짐", "highlight": "혈당", "visual": "glucose meter"},
+      {"text": "① 채소 먼저", "highlight": "채소", "visual": "fresh salad eating"},
+      {"text": "② 고기·계란·생선", "highlight": "고기·계란·생선", "visual": "grilled chicken plate"},
+      {"text": "③ 밥은\n맨 마지막에", "highlight": "맨 마지막", "visual": "rice bowl chopsticks"},
+      {"text": "까먹기 전에\n저장해둬", "highlight": "저장", "visual": "phone bookmark"}
+    ],
+    "media_queries": ["healthy korean meal", "salad bowl eating"],
+    "shooting_guide": "실제 내 밥상을 위에서 찍고, 채소→고기→밥 순서로 젓가락이 가는 손 컷 3개. 마지막에 밥그릇 클로즈업.",
+    "keywords": ["식사 순서", "혈당", "채소 먼저"],
+    "hashtags": ["#다이어트", "#식사순서"],
+    "sources": [{"title": "Shukla et al., Diabetes Care (2015) — Food Order and Postprandial Glucose", "url": "https://doi.org/10.2337/dc15-0429"}],
+    "why_viral": "식단을 안 바꿔도 되는 '제로 노력' 팁 + 반전(밥 먼저가 손해) + 3단 리스트로 저장 유도"
+  },
+  {
+    "category": "workout",
+    "title": "밥 먹고 딱 2분만 걸어봐",
+    "hook": "식후 2분의 차이",
+    "x_post": "헬스장 갈 시간 없는 사람\n밥 먹고 바로 눕지 말고 2~5분만 걸어\n\n가볍게 걷기만 해도\n식후 혈당 올라가는 폭이 줄어든다는 연구 결과 있음\n\n설거지 대신 동네 한 바퀴\n이게 제일 싼 다이어트",
+    "x_thread": [
+      "운동할 시간 없다는 사람한테\n진짜 현실적인 거 하나 알려줌",
+      "2022년 스포츠의학 저널에 실린 분석에서\n식후 2~5분 가볍게 걷기만 해도\n가만히 앉아 있을 때보다 혈당 상승이 완만했음",
+      "포인트는 '밥 먹고 바로'\n빠르게 뛸 필요 없고 집 안에서 왔다갔다도 됨",
+      "점심 먹고 커피 사러 걸어가는 것도 운동임\n오늘부터 해보고 알려줘"
+    ],
+    "scenes": [
+      {"text": "밥 먹고 바로\n눕는 사람?", "highlight": "눕는", "visual": "person lying on sofa after meal"},
+      {"text": "딱 2분만\n걸어봐", "highlight": "2분", "visual": "person walking city street"},
+      {"text": "식후 혈당 오르는 폭이\n줄어든다는 연구", "highlight": "혈당", "visual": "walking park slow motion"},
+      {"text": "뛸 필요 없음\n천천히 걷기면 끝", "highlight": "천천히", "visual": "walking shoes sidewalk"},
+      {"text": "집 안에서\n왔다갔다도 OK", "highlight": "집 안에서", "visual": "walking at home hallway"},
+      {"text": "제일 싼 다이어트\n오늘부터 해봐", "highlight": "제일 싼", "visual": "sunset walk"}
+    ],
+    "media_queries": ["walking after lunch", "slow walk park"],
+    "shooting_guide": "밥그릇 비우는 컷 → 신발 신는 컷 → 걷는 발 클로즈업(타이머 2:00 화면 오버레이).",
+    "keywords": ["식후 걷기", "2분", "혈당"],
+    "hashtags": ["#살빼는운동", "#식후걷기"],
+    "sources": [{"title": "Buffey et al., Sports Medicine (2022) — Postprandial light activity & glucose", "url": "https://doi.org/10.1007/s40279-022-01649-4"}],
+    "why_viral": "진입장벽 '2분' + 헬스장 불필요 + 직장인 점심 상황 공감"
+  },
+  {
+    "category": "world",
+    "title": "일본은 허리둘레를 법으로 잰다",
+    "hook": "일본 허리 검사 실화",
+    "x_post": "일본은 2008년부터\n40~74세 건강검진 때 허리둘레를 잼\n\n남자 85cm, 여자 90cm 넘으면\n생활습관 상담 대상\n\n목표 못 채운 회사·지자체는 불이익까지\n우리나라였으면 난리 났을 듯",
+    "x_thread": [
+      "일본에 '메타보법'이라는 게 있음\n진짜 허리둘레를 국가가 관리함",
+      "2008년부터 40~74세는 정기 검진 때 허리를 재고\n남 85cm·여 90cm를 넘으면 상담·지도 대상이 됨",
+      "개인한테 벌금 매기는 건 아니고\n목표 못 채운 회사·지자체 쪽이 불이익을 받는 구조라\n회사가 직원 다이어트를 챙기게 됨",
+      "이거 한국에 도입되면 찬성? 반대?\n인용으로 의견 남겨줘"
+    ],
+    "scenes": [
+      {"text": "일본은 허리둘레를\n법으로 잰다", "highlight": "법으로", "visual": "tokyo office workers street"},
+      {"text": "40~74세\n건강검진 때 측정", "highlight": "건강검진", "visual": "measuring tape waist"},
+      {"text": "남 85cm · 여 90cm\n넘으면 상담 대상", "highlight": "85cm", "visual": "doctor consultation"},
+      {"text": "개인 벌금이 아니라\n회사가 불이익", "highlight": "회사가", "visual": "japanese office"},
+      {"text": "그래서 회사가\n직원 다이어트 챙김", "highlight": "직원 다이어트", "visual": "office workers exercise"},
+      {"text": "한국 도입되면\n찬성? 반대?", "highlight": "찬성? 반대?", "visual": "seoul city night"}
+    ],
+    "media_queries": ["tokyo commuters", "measuring waist tape"],
+    "shooting_guide": "도쿄 출근길 스톡 → 줄자 클로즈업 → 숫자 85/90 큰 자막. 마지막은 투표 유도 화면.",
+    "keywords": ["메타보법", "일본 허리둘레", "85cm"],
+    "hashtags": ["#해외이슈", "#일본"],
+    "sources": [{"title": "The New York Times (2008) — Japan, Seeking Trim Waists, Measures Millions", "url": "https://www.nytimes.com/2008/06/13/world/asia/13fat.html"}],
+    "why_viral": "한국엔 없는 제도 + 구체적 숫자 + 찬반 토론 유도로 인용 폭발 구조"
+  },
+  {
+    "category": "home",
+    "title": "수세미 전자레인지 돌려도 소용없음",
+    "hook": "수세미 소독 착각",
+    "x_post": "수세미 전자레인지에 돌리면 소독된다?\n\n독일 연구팀이 부엌 수세미를 조사해보니\n정기적으로 소독한 수세미에서도\n일부 세균은 오히려 비율이 늘어나 있었음\n\n결론: 소독보다 교체\n일주일에 한 번 바꿔",
+    "x_thread": [
+      "우리 집 부엌에서 제일 더러운 거\n변기 아니고 수세미일 수 있음",
+      "2017년 독일 연구팀이 가정용 수세미 14개를 분석했더니\n세균 밀도가 엄청 높았고\n전자레인지·삶기로 관리한 수세미도 안심할 수준이 아니었음",
+      "그래서 연구진 제안은 '주 1회 교체'\n참고로 마른 수세미 전자레인지에 돌리면 불날 수 있음",
+      "수세미 언제 바꿨는지 기억 안 나면\n오늘이 바꾸는 날임"
+    ],
+    "scenes": [
+      {"text": "수세미 전자레인지\n돌리는 사람?", "highlight": "전자레인지", "visual": "kitchen sponge sink"},
+      {"text": "소독했는데도\n세균이 남아있었음", "highlight": "세균", "visual": "dirty kitchen sponge closeup"},
+      {"text": "독일 연구팀\n수세미 14개 분석", "highlight": "14개", "visual": "laboratory petri dish"},
+      {"text": "결론은\n소독보다 교체", "highlight": "교체", "visual": "new sponges colorful"},
+      {"text": "일주일에\n한 번 바꾸기", "highlight": "한 번", "visual": "washing dishes kitchen"},
+      {"text": "마지막으로 바꾼 날\n기억나?", "highlight": "기억나?", "visual": "clean kitchen morning"}
+    ],
+    "media_queries": ["kitchen sponge", "washing dishes"],
+    "shooting_guide": "내 집 수세미 클로즈업 → 전자레인지 문 닫는 컷 → X 표시 → 새 수세미 뜯는 컷.",
+    "keywords": ["수세미", "전자레인지 소독", "교체 주기"],
+    "hashtags": ["#살림꿀팁", "#주방위생"],
+    "sources": [{"title": "Cardinale et al., Scientific Reports (2017) — Microbiome analysis of kitchen sponges", "url": "https://doi.org/10.1038/s41598-017-06055-9"}],
+    "why_viral": "모두가 하는 습관을 뒤집는 반전 + '우리 집 얘기' 공감 + 행동 유도(오늘 교체)"
+  }
+]
