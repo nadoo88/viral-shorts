@@ -1,4 +1,4 @@
-"""GitHub Pages 웹사이트 빌더
+"""GitHub Pages 웹사이트 빌더 (nadoo88.github.io/viral-shorts)
 
 archive/<실행시각>/posts.json (+ jpg 썸네일)  ← 매 실행마다 커밋되는 가벼운 기록
 output/<실행시각>/*.mp4                      ← 이번 실행에서 새로 만든 영상
