@@ -1,0 +1,274 @@
+[
+  {
+    "category": "diet",
+    "title": "GLP-1 Prescriptions f…",
+    "hook": "GLP-1 Prescript",
+    "x_post": ">>다이어트 중이면 이거 꼭 봐<<\nGLP-1 Prescriptions f…\n\n살 빠지는 사람들은 이미 알고 있었음\n\n1. 핵심 포인트 한 줄\n2. 이유 한 줄\n3. 오늘 바로 해볼 것 한 줄\n\n나중에 찾지 말고 저장해둬",
+    "x_thread": [
+      ">>다이어트 중이면 이거 꼭 봐<<\nGLP-1 Prescriptions f…",
+      "왜 그런지 이유 정리",
+      "바로 따라 할 수 있는 방법",
+      "저장·공유 유도 한 줄"
+    ],
+    "scenes": [
+      {
+        "text": "GLP-1\nPrescriptions",
+        "highlight": "GLP-1",
+        "visual": "healthy meal"
+      },
+      {
+        "text": "살 빠지는 사람들은\n이미 알고 있었음",
+        "highlight": "있었음",
+        "visual": "healthy meal"
+      },
+      {
+        "text": "핵심은\n딱 3가지",
+        "highlight": "3가지",
+        "visual": "healthy meal"
+      },
+      {
+        "text": "오늘 바로\n해봐",
+        "highlight": "바로",
+        "visual": "healthy meal"
+      },
+      {
+        "text": "까먹기 전에\n저장해둬",
+        "highlight": "저장",
+        "visual": "healthy meal"
+      }
+    ],
+    "media_queries": [
+      "healthy meal"
+    ],
+    "shooting_guide": "오프라인 초안입니다. 번호 목록 3줄을 실제 내용으로 채우고 사실 확인 후 게시하세요.",
+    "keywords": [
+      "GLP-1",
+      "Prescriptions",
+      "for"
+    ],
+    "hashtags": [
+      "#다이어트"
+    ],
+    "sources": [
+      {
+        "title": "GLP-1 Prescriptions for People With No Medical Need Are Clim",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VcEFRcWJ3X2hTUTVReFlRTUd5VTdReEpyS25IRXdwZE9EUDVzbkZzbDhwb0xUU1hzNTdrWHFkaFB4R2x6YU9BRDk1NE1OY1F3SkpoRXVpMjJ4UUJlbHluV3ZYV2NueUJkckQyaG9tcmk0dWdlb3c4MUQ1M24?oc=5"
+      },
+      {
+        "title": "Time-restricted eating boosts weight loss in adults with obe",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPY05OYzN2YnZiQUx2bDEtdDNNYmhOUWttX2trQnlSSFNybndxUUFuX1ZkaDJ0MFBBbjRlRERCNENyV201aE5hVkZpWXhBYWRxX2JlV1RmZzFPNG9MY2ZpSFpTTTA2UjdsZUoyNVRDbnBhR2dKeWhlTzBjTFg3bUtUT1laZDRDdUgtSk1MdUxURDNlMWk2cm1keUFkdzZCNUtkVXJvVGY4cWpZeFoz?oc=5"
+      }
+    ],
+    "why_viral": "오프라인 초안 — AI 연결되면 자동으로 완성본이 생성됩니다",
+    "_writer": "offline",
+    "_errors": [],
+    "credits": [],
+    "thumbnail": "01_diet.jpg",
+    "video": "01_diet.mp4",
+    "poster": "01_diet_poster.jpg"
+  },
+  {
+    "category": "workout",
+    "title": "12 Best Weight-Loss A…",
+    "hook": "12 Best Weight-",
+    "x_post": ">>운동할 시간 없는 사람 필독<<\n12 Best Weight-Loss A…\n\n이것만 해도 몸이 달라짐\n\n1. 핵심 포인트 한 줄\n2. 이유 한 줄\n3. 오늘 바로 해볼 것 한 줄\n\n나중에 찾지 말고 저장해둬",
+    "x_thread": [
+      ">>운동할 시간 없는 사람 필독<<\n12 Best Weight-Loss A…",
+      "왜 그런지 이유 정리",
+      "바로 따라 할 수 있는 방법",
+      "저장·공유 유도 한 줄"
+    ],
+    "scenes": [
+      {
+        "text": "12 Best\nWeight-Loss",
+        "highlight": "12",
+        "visual": "home workout"
+      },
+      {
+        "text": "이것만 해도 몸이\n달라짐",
+        "highlight": "달라짐",
+        "visual": "home workout"
+      },
+      {
+        "text": "핵심은\n딱 3가지",
+        "highlight": "3가지",
+        "visual": "home workout"
+      },
+      {
+        "text": "오늘 바로\n해봐",
+        "highlight": "바로",
+        "visual": "home workout"
+      },
+      {
+        "text": "까먹기 전에\n저장해둬",
+        "highlight": "저장",
+        "visual": "home workout"
+      }
+    ],
+    "media_queries": [
+      "home workout"
+    ],
+    "shooting_guide": "오프라인 초안입니다. 번호 목록 3줄을 실제 내용으로 채우고 사실 확인 후 게시하세요.",
+    "keywords": [
+      "12",
+      "Best",
+      "Weight-Loss"
+    ],
+    "hashtags": [
+      "#살빼는운동"
+    ],
+    "sources": [
+      {
+        "title": "12 Best Weight-Loss Apps, According to an Expert - GoodRx",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8ydlMzVHdOLWpmVUN2NGtIeThNOW9iNkloM0l6TmhWU1JNOWE0alYwQWNDdnVYMXo5MktOMy1qQzR5S25Xa0F3SzJNSGpyQS1PSDB6N3hZSG5rdVlaN2hsN0J4UlFlRWxYSFMyMzhmNUVzdy1tZlE?oc=5"
+      },
+      {
+        "title": "How Nigella Lawson lost 2 stone with 'slow' exercise: 'I hav",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRlp6ZXVOMDI4QlJ2MEtqSXF2Q1VYYlhwdDZqc2ZsampjX09GbFpMbEstQ0JtdTRfbE5kdEJuNDJmdE5ySGtPRFRBMlBEU1ktYjNIMW1nM2lqc2t0QUlNOURGWE9pUm1DbnlIcjcxb09kSFVpS2ZBLXR0ZENaZm1jNzB0bFVBUUVDUzZXQVBVR2pJaFk?oc=5"
+      }
+    ],
+    "why_viral": "오프라인 초안 — AI 연결되면 자동으로 완성본이 생성됩니다",
+    "_writer": "offline",
+    "_errors": [],
+    "credits": [],
+    "thumbnail": "02_workout.jpg",
+    "video": "02_workout.mp4",
+    "poster": "02_workout_poster.jpg"
+  },
+  {
+    "category": "world",
+    "title": "The Giants ‘mom of th…",
+    "hook": "The Giants ‘mom",
+    "x_post": ">>우리나라엔 없는 이야기<<\nThe Giants ‘mom of th…\n\n해외에서 난리 난 소식\n\n1. 핵심 포인트 한 줄\n2. 이유 한 줄\n3. 오늘 바로 해볼 것 한 줄\n\n나중에 찾지 말고 저장해둬",
+    "x_thread": [
+      ">>우리나라엔 없는 이야기<<\nThe Giants ‘mom of th…",
+      "왜 그런지 이유 정리",
+      "바로 따라 할 수 있는 방법",
+      "저장·공유 유도 한 줄"
+    ],
+    "scenes": [
+      {
+        "text": "The Giants\n‘mom of th…",
+        "highlight": "The",
+        "visual": "city street abroad"
+      },
+      {
+        "text": "해외에서 난리 난 소식",
+        "highlight": "소식",
+        "visual": "city street abroad"
+      },
+      {
+        "text": "핵심은\n딱 3가지",
+        "highlight": "3가지",
+        "visual": "city street abroad"
+      },
+      {
+        "text": "오늘 바로\n해봐",
+        "highlight": "바로",
+        "visual": "city street abroad"
+      },
+      {
+        "text": "까먹기 전에\n저장해둬",
+        "highlight": "저장",
+        "visual": "city street abroad"
+      }
+    ],
+    "media_queries": [
+      "city street abroad"
+    ],
+    "shooting_guide": "오프라인 초안입니다. 번호 목록 3줄을 실제 내용으로 채우고 사실 확인 후 게시하세요.",
+    "keywords": [
+      "The",
+      "Giants",
+      "‘mom"
+    ],
+    "hashtags": [
+      "#해외이슈"
+    ],
+    "sources": [
+      {
+        "title": "The Giants ‘mom of the year’ defends husband after viral cli",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLZDJNeVNKLWgyWkRLWjhDZXk3Y2tldlpmX2RkYVdUcnUzM2dWR0Q1YVlNYTJNalQxaGNfZ194dFpsZVVsdkRENXVGeVZTQXhGaHRNeTlHdkpDRjZmTnRVbXdQM0dIcmctLVp2aVk3R2NUdGpLQXc?oc=5"
+      },
+      {
+        "title": "Watch A’ja Wilson bulldoze WNBA worker in massive viral coll",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZVNxTEo3OVhES3FhRXBRdTNDV2ZJcXdoOTh6UWYtMzBIalB0cjRXTXFBdzRMZjRvVHBlYmVpbWszUXZ2VzdQOGsxZDdqdndZeXA3X0g0b2JPb2VjZ0hTYmJTa3hJbVJ1R3BZTEs5VDRiZmVMTEVTSWNsbDdQNTllcURtX28?oc=5"
+      }
+    ],
+    "why_viral": "오프라인 초안 — AI 연결되면 자동으로 완성본이 생성됩니다",
+    "_writer": "offline",
+    "_errors": [],
+    "credits": [],
+    "thumbnail": "03_world.jpg",
+    "video": "03_world.mp4",
+    "poster": "03_world_poster.jpg"
+  },
+  {
+    "category": "home",
+    "title": "This simple dishwashe…",
+    "hook": "This simple dis",
+    "x_post": ">>살림하는 사람 저장 필수<<\nThis simple dishwashe…\n\n여태 반대로 하고 있었음\n\n1. 핵심 포인트 한 줄\n2. 이유 한 줄\n3. 오늘 바로 해볼 것 한 줄\n\n나중에 찾지 말고 저장해둬",
+    "x_thread": [
+      ">>살림하는 사람 저장 필수<<\nThis simple dishwashe…",
+      "왜 그런지 이유 정리",
+      "바로 따라 할 수 있는 방법",
+      "저장·공유 유도 한 줄"
+    ],
+    "scenes": [
+      {
+        "text": "This simple\ndishwashe…",
+        "highlight": "This",
+        "visual": "clean kitchen"
+      },
+      {
+        "text": "여태 반대로 하고\n있었음",
+        "highlight": "있었음",
+        "visual": "clean kitchen"
+      },
+      {
+        "text": "핵심은\n딱 3가지",
+        "highlight": "3가지",
+        "visual": "clean kitchen"
+      },
+      {
+        "text": "오늘 바로\n해봐",
+        "highlight": "바로",
+        "visual": "clean kitchen"
+      },
+      {
+        "text": "까먹기 전에\n저장해둬",
+        "highlight": "저장",
+        "visual": "clean kitchen"
+      }
+    ],
+    "media_queries": [
+      "clean kitchen"
+    ],
+    "shooting_guide": "오프라인 초안입니다. 번호 목록 3줄을 실제 내용으로 채우고 사실 확인 후 게시하세요.",
+    "keywords": [
+      "This",
+      "simple",
+      "dishwasher"
+    ],
+    "hashtags": [
+      "#살림꿀템"
+    ],
+    "sources": [
+      {
+        "title": "This simple dishwasher hack finally got my dishes properly c",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQjhTUDJqSHZpWE9yYVUwLXdVTlRmRV9OQWlqVnhBWFJvNTdPMUNzb21McWVPUDVkaU1uc3BRZ0xnUzBYeDhzcTVBWEs2UTVTQ2NWRmV3OU96b3h3ZXBGelpHWEw3b0NJdDY4U0dub2ppR1BwVER6emh0T3pZSDRycV90RFdZS1JCV295enNoa2U3VTZB?oc=5"
+      },
+      {
+        "title": "I Was Nose-Blind to These 3 Kitchen Smells—My Guests Weren’t",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObmpGMHYzaHNxdVVLejdYUVFnWFZIT2xPWkRJTVNNSmNqSjRVN29YSkN6V29yazJvSUYzNmJDZXRxaUZxVGhGOTZPZFpyS1lsZzJPcjVJb1lodFJNcmF6dVBIeVBiYjVtd3hQM1NtclNWcWMtU1RfV2NjaU5JVGJvTFRfdw?oc=5"
+      }
+    ],
+    "why_viral": "오프라인 초안 — AI 연결되면 자동으로 완성본이 생성됩니다",
+    "_writer": "offline",
+    "_errors": [],
+    "credits": [],
+    "thumbnail": "04_home.jpg",
+    "video": "04_home.mp4",
+    "poster": "04_home_poster.jpg"
+  }
+]
