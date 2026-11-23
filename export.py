@@ -42,6 +42,10 @@ def _md(posts, path):
             L += ["", "**출처:** " + " · ".join(f"[{s['title']}]({s['url']})" for s in p["sources"])]
         if p.get("credits"):
             L += ["", "**미디어 크레딧:** " + ", ".join(sorted(set(p["credits"])))]
+        if p.get("ref_media"):
+            L += ["", "**레퍼런스 영상 (분석용 · 업로드 금지):**"]
+            L += [f"- [{r['title'][:60]}]({r['url']}) → " + ", ".join(f"`{f}`" for f in r["files"])
+                  for r in p["ref_media"]]
         L += [f"\n_왜 터지나:_ {p.get('why_viral','')}", "\n---\n"]
     open(path, "w", encoding="utf-8").write("\n".join(L))
 
@@ -55,6 +59,11 @@ def _html(posts, path):
         thread = "".join(f"<li>{html.escape(t)}</li>" for t in p.get("x_thread", []))
         src = "".join(f'<a href="{html.escape(s["url"])}" target="_blank">{html.escape(s["title"])}</a>'
                       for s in p.get("sources", []))
+        refs = "".join(
+            f'<a href="{html.escape(f)}" target="_blank">📥 {html.escape(r["title"][:40])} ({j})</a>'
+            for r in p.get("ref_media", []) for j, f in enumerate(r["files"], 1))
+        if refs:
+            refs = f'<details class="src"><summary>레퍼런스 영상 (분석용)</summary>{refs}</details>'
         media = ""
         if p.get("video"):
             media = f'<video src="{html.escape(p["video"])}" controls playsinline loop></video>'
@@ -73,6 +82,7 @@ def _html(posts, path):
     <details><summary>스레드 {len(p.get('x_thread', []))}개</summary><ol>{thread}</ol></details>
     <p class="meta">{html.escape(p.get('why_viral',''))}</p>
     <div class="src">{src}</div>
+    {refs}
   </div>
 </article>""")
     page = f"""<!doctype html><html lang="ko"><head><meta charset="utf-8">

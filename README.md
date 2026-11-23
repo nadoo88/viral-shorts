@@ -35,6 +35,26 @@ python main.py --collect-only   # 오늘의 트렌드 신호만 signals.json 으
 
 끝나면 `output/날짜_시간/index.html` 을 열어 **복사 → X에 올리기**. 영상은 X·릴스·쇼츠·틱톡에 그대로 업로드.
 
+## 레퍼런스 영상 수집 (cobalt 연동)
+
+PC에 설치한 [cobalt](https://github.com/imputnet/cobalt)로 **소재가 된 원본 영상**을 받아
+`output/날짜/refs/` 에 저장합니다. 컷 템포·자막 위치·후킹 첫 장면을 뜯어보는 **분석용**이며,
+렌더·썸네일·사이트에는 쓰지 않습니다 (재업로드 금지).
+
+1. 바탕화면 `cobalt.bat` 실행 (API `http://localhost:9000` 이 떠 있어야 함)
+2. 실행
+
+```bash
+python main.py --grab-refs                    # 평소 실행 + 글마다 원본 영상 2개씩 refs/ 저장
+python main.py --pick --grab-refs             # 고른 소재의 원본 영상까지
+python main.py --grab "https://youtube.com/shorts/xxx,https://www.tiktok.com/@a/video/1"  # 링크만 받기
+```
+
+- 매번 자동으로 받으려면 `config.yaml` → `reference_grab.enabled: true`
+- 지원: YouTube(Shorts) · TikTok · Instagram · X · Reddit · Threads 링크 등. `references.txt` 에 적은 링크도 대상
+- cobalt 가 꺼져 있거나 GitHub Actions 에서는 자동으로 건너뜀 (다른 주소면 `.env` 에 `COBALT_API_URL=`)
+- 결과 `index.html` 카드의 "레퍼런스 영상" 에서 바로 열어볼 수 있음
+
 ## 매일 자동 실행 (GitHub Actions)
 
 1. 이 폴더를 GitHub 저장소로 푸시

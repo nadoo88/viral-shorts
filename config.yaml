@@ -52,6 +52,17 @@ categories:
     subreddits: [CleaningTips, LifeProTips, BuyItForLife, organization]
     youtube_queries: ["cleaning hack shorts", "kitchen hack shorts", "살림 꿀팁 shorts"]
 
+# 레퍼런스 영상 수집 (로컬 cobalt 필요 — 바탕화면 cobalt.bat 실행)
+# 소재가 된 원본 영상을 output/날짜/refs/ 에 받아 연출·자막·템포 분석용으로 둡니다.
+# 받은 영상은 렌더·사이트에 쓰지 않음 (재업로드 금지). cobalt 가 꺼져 있으면 자동 건너뜀.
+reference_grab:
+  enabled: false            # true면 매번 자동, false면 --grab-refs 줄 때만
+  api: http://localhost:9000/
+  per_post: 2               # 글 1개당 받을 레퍼런스 영상 수
+  quality: "720"            # 분석용이라 720이면 충분 (max / 1080 / 720 / 480)
+  mode: auto                # auto(영상+소리) / audio / mute
+  max_picker: 10            # 슬라이드·여러 장 게시물에서 최대 몇 장
+
 # 쓰레드·인스타는 공개 트렌드 API가 없어 직접 넣은 레퍼런스를 함께 씁니다.
 # references.txt 에 한 줄에 하나씩: 카테고리|링크 또는 메모
 references_file: references.txt
