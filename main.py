@@ -5,6 +5,8 @@
   python main.py --only diet,home # 특정 카테고리만
   python main.py --collect-only   # 트렌드 신호만 수집해서 signals.json 저장
   python main.py --no-video       # 글+썸네일만
+  python main.py --grab-refs      # + 소재 원본 영상(레퍼런스)을 cobalt 로 refs/ 에 저장
+  python main.py --grab "URL1,URL2"  # 링크만 레퍼런스로 받기 (cobalt 필요)
 """
 from __future__ import annotations
 
@@ -26,7 +28,7 @@ try:
 except ImportError:
     pass
 
-import collectors, dedup, export, media, render, writer  # noqa: E402
+import collectors, dedup, export, media, refgrab, render, writer  # noqa: E402
 
 
 def load_cfg():
@@ -79,6 +81,8 @@ def write_selected(cat, topic, sigs, cfg, out_dir, idx, video):
     post = writer.write_post(cat, label, sigs, dedup.used_titles(), cfg, topic=topic)
     print(f"   └ 작성 완료 ({post.get('_writer')})")
     post = produce(post, out_dir, idx, cfg, video)
+    if cfg.get("_grab") and sigs:
+        refgrab.grab_for_post(post, sigs, out_dir, cfg, idx)
     dedup.save(cat, post["title"], post["x_post"], post.get("keywords", []))
     return post
 
@@ -93,6 +97,8 @@ def main():
     ap.add_argument("--topic", default="", help='직접 정한 소재로 작성 (예: "식후 10분 걷기")')
     ap.add_argument("--category", default="", help="--topic 카테고리: diet/workout/world/home/health (비우면 자동)")
     ap.add_argument("--pick", action="store_true", help="트렌드 수집 후 번호로 소재 선택")
+    ap.add_argument("--grab-refs", action="store_true", help="소재 원본 영상을 cobalt 로 refs/ 에 저장 (분석용)")
+    ap.add_argument("--grab", default="", help='레퍼런스 링크만 받기: "URL1,URL2"')
     ap.add_argument("--out", default=os.path.join(ROOT, "output"))
     a = ap.parse_args()
 
@@ -100,6 +106,19 @@ def main():
     stamp = dt.datetime.now().strftime("%Y%m%d_%H%M")
     out_dir = os.path.join(a.out, stamp)
     os.makedirs(out_dir, exist_ok=True)
+
+    if a.grab:
+        if not refgrab.available(cfg):
+            sys.exit("cobalt 서버가 꺼져 있어요. 바탕화면 cobalt.bat 을 먼저 실행하세요.")
+        urls = [u.strip() for u in re.split(r"[,\s]+", a.grab) if u.strip()]
+        refgrab.grab_urls(urls, out_dir, cfg)
+        print(f"\n✅ 레퍼런스 저장: {out_dir}{os.sep}refs")
+        return
+
+    cfg["_grab"] = a.grab_refs or (cfg.get("reference_grab") or {}).get("enabled", False)
+    if cfg["_grab"] and not refgrab.available(cfg):
+        print("ℹ️  cobalt 서버가 꺼져 있어 레퍼런스 영상 수집은 건너뜁니다 (cobalt.bat 실행 시 동작)")
+        cfg["_grab"] = False
     cats = [c for c in list(cfg["categories"]) + ["health"] if not a.only or c in a.only.split(",")]
     posts = []
 
@@ -162,6 +181,8 @@ def main():
             else:
                 continue
             post = produce(post, out_dir, i, cfg, not a.no_video)
+            if cfg["_grab"]:
+                refgrab.grab_for_post(post, top, out_dir, cfg, i)
             dedup.save(cat, post["title"], post["x_post"], post.get("keywords", []))
             posts.append(post)
 
